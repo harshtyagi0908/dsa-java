@@ -1,0 +1,13 @@
+ public static void main(String[] args) {
+		String str="ABCDEF";
+		System.out.println("string is : "+str);
+		System.out.println("string's lentgth is : "+str.length());
+		char ch=str.charAt(3);
+		System.out.println(" the char at entered location is  :"+ch);
+    System.out.println(str.substring(0,2));
+    for(int s=0;s<str.length();s++){
+        for(int e=s+1;e<=str.length();e++){
+            System.out.println(str.substring(s,e));
+        }
+    }
+      }
